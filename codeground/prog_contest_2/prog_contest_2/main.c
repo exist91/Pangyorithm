@@ -13,7 +13,7 @@
 
 #define MAX(A,B) A > B ? A : B
 
-//오름차순
+//내림차순
 int compare(const void *first, const void *second)
 {
     if(*(int*)first > *(int*)second)
